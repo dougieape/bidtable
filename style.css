@@ -13,6 +13,11 @@ section h1 {
   font-size: 120px;
 }
 
+section svg {
+  min-width: 50%;
+  max-width: 80%;
+}
+
 section, footer {
   height: 100vh;
   display: flex;
@@ -26,12 +31,21 @@ section, footer {
   overflow: hidden;
 }
 
-.word {
+#title,#tagline,#tagline2 {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: visible;
+}
+
+#tagline, #tagline2 {
+  top: 65%;
+}
+
+#tagline g, #tagline2 g {
+  stroke-dasharray: 400;
+  stroke: black;
 }
 
 path {
