@@ -9,13 +9,13 @@ const tween = new TimelineLite();
 tween.from("#b1", 1, {
     transform: 'matrix(11,0,0,11,2500,0)',
   },0).from("#i", 1, {
-    transform: 'matrix(13,0,0,13,1800,-1000)',
+    transform: 'matrix(13,0,0,13,1800,-1200)',
 },0.2).from("#d", 1, {
-    transform: 'matrix(20,0,0,20,1100,1000)',
+    transform: 'matrix(20,0,0,20,2200,2000)',
 },0.4).from("#t", 1, {
     transform: 'matrix(15,0,0,15,400,-1200)',
 },0.5).from("#a", 1, {
-    transform: 'matrix(11,0,0,11,-300,1000)',
+    transform: 'matrix(11,0,0,11,-300,1200)',
 },0.6).from("#b2", 1, {
     transform: 'matrix(16,0,0,16,-1000,-1200)',
 },0.8).from("#l", 1, {
@@ -152,95 +152,95 @@ tween.from("#b1", 1, {
 
 .from("#bidtable", 1, {
   strokeDashoffset: 400,
-},6)
+},7)
 .from("#will", 1, {
   strokeDashoffset: 400,
-},6.1)
+},7.1)
 .from("#connect", 1, {
   strokeDashoffset: 400,
-},6.2)
+},7.2)
 .from("#all", 1, {
   strokeDashoffset: 400,
-},6.3)
+},7.3)
 .from("#players", 1, {
   strokeDashoffset: 400,
-},6.4)
+},7.4)
 .from("#between", 1, {
   strokeDashoffset: 400,
-},7.1)
+},8.1)
 .from("#inception", 1, {
   strokeDashoffset: 400,
-},7.2)
+},8.2)
 .from("#of1", 1, {
   strokeDashoffset: 400,
-},7.3)
+},8.3)
 .from("#idea", 1, {
   strokeDashoffset: 400,
-},7.4)
+},8.4)
 .from("#to2", 1, {
   strokeDashoffset: 400,
-},7.5)
+},8.5)
 .from("#handing", 1, {
   strokeDashoffset: 400,
-},7.6)
+},8.6)
 .from("#over", 1, {
   strokeDashoffset: 400,
-},7.7)
+},8.7)
 .from("#of2", 1, {
   strokeDashoffset: 400,
-},7.8)
+},8.8)
 .from("#project", 1, {
   strokeDashoffset: 400,
-},7.9)
+},8.9)
 
 .from("#bidtable", 1, {
   color: 'rgba(0,0,0,0)',
-},7)
+},8)
 .from("#will", 1, {
   color: 'rgba(0,0,0,0)',
-},7.1)
+},8.1)
 .from("#connect", 1, {
   color: 'rgba(0,0,0,0)',
-},7.2)
+},8.2)
 .from("#all", 1, {
   color: 'rgba(0,0,0,0)',
-},7.3)
+},8.3)
 .from("#players", 1, {
   color: 'rgba(0,0,0,0)',
-},7.4)
+},8.4)
 .from("#between", 1, {
   color: 'rgba(0,0,0,0)',
-},8.1)
+},9.1)
 .from("#inception", 1, {
   color: 'rgba(0,0,0,0)',
-},8.2)
+},9.2)
 .from("#of1", 1, {
   color: 'rgba(0,0,0,0)',
-},8.3)
+},9.3)
 .from("#idea", 1, {
   color: 'rgba(0,0,0,0)',
-},8.4)
+},9.4)
 .from("#to2", 1, {
   color: 'rgba(0,0,0,0)',
-},8.5)
+},9.5)
 .from("#handing", 1, {
   color: 'rgba(0,0,0,0)',
-},8.6)
+},9.6)
 .from("#over", 1, {
   color: 'rgba(0,0,0,0)',
-},8.7)
+},9.7)
 .from("#of2", 1, {
   color: 'rgba(0,0,0,0)',
-},8.8)
+},9.8)
 .from("#project", 1, {
   color: 'rgba(0,0,0,0)',
-},8.9)
+},9.9)
 
 const controller = new ScrollMagic.Controller();
 
 const scene = new ScrollMagic.Scene({
   triggerElement: ".animation",
-  duration: 1000,
+  duration: 10000,
   triggerHook: 0
 })
 .setTween(tween)
