@@ -24,13 +24,13 @@ tween.from("#b1", 1, {
     transform: 'matrix(11,0,0,11,-2400,-1000)',
 },0.6)
 
-/* .from("#we", 1, {
+.from("#we", 1, {
   transform: 'matrix(20,0,0,20,1100,1000)',
 },2)
 .from("#look", 1, {
   transform: 'matrix(20,0,0,20,1100,1000)',
 },2.1)
-.from("#to", 1, {
+.from("#to1", 1, {
   transform: 'matrix(20,0,0,20,1100,1000)',
 },2.2)
 .from("#revolutionise", 1, {
@@ -62,8 +62,8 @@ tween.from("#b1", 1, {
 },3.4)
 .from("#minds", 1, {
   transform: 'matrix(20,0,0,20,1100,1000)',
-},3.5)*/
-
+},3.5)
+/*
 .from("#we", 1, {
   strokeDashoffset: 400,
 },2)
@@ -143,6 +143,8 @@ tween.from("#b1", 1, {
 .from("#minds", 1, {
   color: 'rgba(0,0,0,0)',
 },4.5)
+*/
+
 .to("#tagline", 1, {
   y: -100,
   opacity: 0
