@@ -25,43 +25,43 @@ tween.from("#b1", 1, {
 },0.6)
 
 .from("#we", 1, {
-  transform: 'matrix(20,0,0,20,1100,1000)',
+  transform: 'matrix(20,0,0,20,12000,2000)',
 },2)
 .from("#look", 1, {
-  transform: 'matrix(20,0,0,20,1100,1000)',
+  transform: 'matrix(20,0,0,20,6000,2000)',
 },2.1)
 .from("#to1", 1, {
-  transform: 'matrix(20,0,0,20,1100,1000)',
+  transform: 'matrix(20,0,0,20,1100,2000)',
 },2.2)
 .from("#revolutionise", 1, {
-  transform: 'matrix(20,0,0,20,1100,1000)',
+  transform: 'matrix(20,0,0,20,1100,2000)',
 },2.3)
 .from("#the", 1, {
-  transform: 'matrix(20,0,0,20,1100,1000)',
+  transform: 'matrix(20,0,0,20,1100,2000)',
 },2.4)
 .from("#construction1", 1, {
-  transform: 'matrix(20,0,0,20,1100,1000)',
+  transform: 'matrix(20,0,0,20,1100,2000)',
 },2.5)
 .from("#industry", 1, {
-  transform: 'matrix(20,0,0,20,1100,1000)',
+  transform: 'matrix(20,0,0,20,1100,2000)',
 },2.6)
 .from("#for", 1, {
-  transform: 'matrix(20,0,0,20,1100,1000)',
+  transform: 'matrix(20,0,0,20,1100,2000)',
 },3)
 .from("#construction2", 1, {
-  transform: 'matrix(20,0,0,20,1100,1000)',
+  transform: 'matrix(20,0,0,20,1100,2000)',
 },3.1)
 .from("#and", 1, {
-  transform: 'matrix(20,0,0,20,1100,1000)',
+  transform: 'matrix(20,0,0,20,1100,2000)',
 },3.2)
 .from("#non", 1, {
-  transform: 'matrix(20,0,0,20,1100,1000)',
+  transform: 'matrix(20,0,0,20,1100,2000)',
 },3.3)
 .from("#construction3", 1, {
-  transform: 'matrix(20,0,0,20,1100,1000)',
+  transform: 'matrix(20,0,0,20,1100,2000)',
 },3.4)
 .from("#minds", 1, {
-  transform: 'matrix(20,0,0,20,1100,1000)',
+  transform: 'matrix(20,0,0,20,1100,2000)',
 },3.5)
 /*
 .from("#we", 1, {
