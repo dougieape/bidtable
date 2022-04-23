@@ -130,3 +130,21 @@ const scene = new ScrollMagic.Scene({
 .addIndicators()
 .setPin(".tagline-section")
 .addTo(controller);
+
+const cubeTween = new TimelineLite();
+
+cubeTween.to(".cube", 1, {
+    rotationY:-90
+},0)
+
+const cubeController = new ScrollMagic.Controller();
+
+const cubeScene = new ScrollMagic.Scene({
+  triggerElement: ".cube-section",
+  duration: 2000,
+  triggerHook: 0
+})
+.setTween(cubeTween)
+.addIndicators()
+.setPin(".cube-section")
+.addTo(cubeController);
