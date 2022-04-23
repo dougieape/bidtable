@@ -54,17 +54,36 @@ path {
   position: absolute;
 }
 
-.cube-row {
-  font-size: 60px;
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-}
-
 .cube-section {
   perspective: 800px;
 }
 
-.cube-side {
+.cube {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  transform-style: preserve-3d;
   transform: rotate3d(0, 1, 0, -20deg);
+}
+
+.cube-side {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background:white;
+}
+
+.cube-front {
+  transform: translateZ(200px);
+}
+
+.cube-right {
+  transform: translateX(200px) rotateY(90deg);
+}
+
+.cube-row {
+  font-size: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
 }
