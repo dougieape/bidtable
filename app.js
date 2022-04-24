@@ -133,9 +133,26 @@ const scene = new ScrollMagic.Scene({
 
 const cubeTween = new TimelineLite();
 
-cubeTween.to(".cube", 1, {
-    rotationY:-90
+async function countUp(selector, param1, param2, interval, speed) {
+  var i=param1;
+  do {
+    i+=interval;
+    document.querySelector(selector).innerHTML= i + '+'
+    await new Promise(r => setTimeout(r, speed));
+  } while ( i!=param2)
+}
+
+cubeTween.call( countUp, ['.cube-front .cube-row--center div:first-child',99876,100000,1,1], null, 0)
+.from(".cube-row:not(.cube-row--center)", 1, {
+    opacity: 0
 },0)
+.to(".cube", 1, {
+    rotationY:-90
+},1)
+.to(".cube-row:not(.cube-row--center)", 1, {
+    opacity: 0
+},2)
+.call( countUp, ['.cube-right .cube-row--center div:first-child',100000,1,-271,0.1], null, 3)
 
 const cubeController = new ScrollMagic.Controller();
 
